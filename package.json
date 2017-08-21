@@ -1,0 +1,30 @@
+{
+  "name": "spark-crna",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.1.0",
+    "jest-expo": "~19.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^19.0.0",
+    "gl-react": "^3.9.0",
+    "gl-react-expo": "^3.9.0",
+    "hoist-non-react-statics": "^2.2.2",
+    "raf": "^3.3.2",
+    "react": "16.0.0-alpha.12",
+    "react-native": "github:expo/react-native#sdk-19.0.0"
+  }
+}
